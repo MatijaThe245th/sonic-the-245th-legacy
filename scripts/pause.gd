@@ -35,6 +35,8 @@ func pause():
 		get_tree().paused = true
 		if options.visible == false:
 			visible = true
+			if !resume.has_focus() and !options_button.has_focus() and !quit.has_focus():
+				resume.grab_focus()
 	else:
 		get_tree().paused = false
 		visible = false

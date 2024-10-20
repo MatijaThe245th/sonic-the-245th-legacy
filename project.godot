@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Sonic The 245th"
+config/name="Sonic The 245th (Legacy)"
 config/description="A Sonic the Hedgehog fangame inspired by Sonic Advance 3 and Sonic Rush."
 config/version="0.7"
 run/main_scene="res://scenes/sub_viewport.tscn"

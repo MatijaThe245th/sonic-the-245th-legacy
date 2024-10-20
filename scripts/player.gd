@@ -245,7 +245,7 @@ func _physics_process(_delta):
 
 
 func respawn():
-	position.x = 886
-	position.y = 560
+	position.x = 86
+	position.y = 119
 	velocity.x = 0
 	velocity.y = 0

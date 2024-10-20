@@ -1,6 +1,6 @@
 [gd_scene load_steps=95 format=3 uid="uid://d1861mffx23x3"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_4gbii"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_qooqc"]
 [ext_resource type="Texture2D" uid="uid://cxc775sdhbrkv" path="res://sprites/Sonic/Sonic_Idle.png" id="2_bdc6g"]
 [ext_resource type="Texture2D" uid="uid://bm531b1t3hbov" path="res://sprites/Sonic/Sonic_Fall_ExtraFrame.png" id="3_dtib8"]
 [ext_resource type="Texture2D" uid="uid://dyqmt6lo4p8t3" path="res://sprites/Sonic/Sonic_Fall.png" id="3_f4tnd"]
@@ -716,7 +716,7 @@ size = Vector2(20, 31)
 floor_constant_speed = true
 floor_max_angle = 1.55334
 floor_snap_length = 25.0
-script = ExtResource("1_4gbii")
+script = ExtResource("1_qooqc")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -16)
