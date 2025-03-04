@@ -475,7 +475,6 @@ physics_layer_0/collision_layer = 2
 sources/1 = SubResource("6")
 
 [node name="Test Level" type="Node2D"]
-position = Vector2(74, 17)
 
 [node name="Background" type="ParallaxBackground" parent="."]
 
@@ -485,17 +484,17 @@ motion_scale = Vector2(0, 0)
 [node name="Sprite1" type="Sprite2D" parent="Background/Back"]
 texture = ExtResource("1")
 centered = false
-offset = Vector2(0, -27)
+offset = Vector2(0, -34)
 
 [node name="Sprite2" type="Sprite2D" parent="Background/Back"]
 texture = ExtResource("1")
 centered = false
-offset = Vector2(256, -27)
+offset = Vector2(256, -34)
 
 [node name="Sprite3" type="Sprite2D" parent="Background/Back"]
 texture = ExtResource("1")
 centered = false
-offset = Vector2(512, -27)
+offset = Vector2(512, -34)
 
 [node name="Middle" type="ParallaxLayer" parent="Background"]
 motion_scale = Vector2(0.005, 0.002)
@@ -504,17 +503,17 @@ motion_mirroring = Vector2(768, 0)
 [node name="Sprite1" type="Sprite2D" parent="Background/Middle"]
 texture = ExtResource("2")
 centered = false
-offset = Vector2(0, -20)
+offset = Vector2(0, -37)
 
 [node name="Sprite2" type="Sprite2D" parent="Background/Middle"]
 texture = ExtResource("2")
 centered = false
-offset = Vector2(256, -20)
+offset = Vector2(256, -37)
 
 [node name="Sprite3" type="Sprite2D" parent="Background/Middle"]
 texture = ExtResource("2")
 centered = false
-offset = Vector2(512, -20)
+offset = Vector2(512, -37)
 
 [node name="Front" type="ParallaxLayer" parent="Background"]
 motion_scale = Vector2(0.01, 0.005)
@@ -523,17 +522,17 @@ motion_mirroring = Vector2(768, 0)
 [node name="Sprite1" type="Sprite2D" parent="Background/Front"]
 texture = ExtResource("3")
 centered = false
-offset = Vector2(0, 9)
+offset = Vector2(0, -8)
 
 [node name="Sprite2" type="Sprite2D" parent="Background/Front"]
 texture = ExtResource("3")
 centered = false
-offset = Vector2(256, 9)
+offset = Vector2(256, -8)
 
 [node name="Sprite3" type="Sprite2D" parent="Background/Front"]
 texture = ExtResource("3")
 centered = false
-offset = Vector2(512, 9)
+offset = Vector2(512, -8)
 
 [node name="Platform" type="StaticBody2D" parent="."]
 position = Vector2(486, -267)

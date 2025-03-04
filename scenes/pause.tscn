@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://bcedeytqbvse5"]
 
-[ext_resource type="Script" path="res://scripts/pause.gd" id="1_6jcvy"]
+[ext_resource type="Script" uid="uid://cjw5rvtnf4v1a" path="res://scripts/pause.gd" id="1_6jcvy"]
 [ext_resource type="Texture2D" uid="uid://difkkmc00i5co" path="res://sprites/UI/MobileControls.png" id="2_1788f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_76k2v"]

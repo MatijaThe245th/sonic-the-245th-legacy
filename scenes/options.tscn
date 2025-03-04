@@ -1,10 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://duj2y2turgoi6"]
 
-[ext_resource type="Script" path="res://scripts/options.gd" id="1_emkan"]
+[ext_resource type="Script" uid="uid://bmtsschma8uej" path="res://scripts/options.gd" id="1_emkan"]
 [ext_resource type="Texture2D" uid="uid://difkkmc00i5co" path="res://sprites/UI/MobileControls.png" id="2_kbpl2"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_3wgbx"]
 line_spacing = 8.0
+paragraph_spacing = -3.0
 shadow_size = 3
 shadow_color = Color(0, 0, 0, 0.505882)
 
@@ -51,9 +52,9 @@ size_flags_vertical = 4
 [node name="Label" type="Label" parent="MarginContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 0
+size_flags_vertical = 0
 text = "Integer Scaling:
 Show Statistics:
-
 "
 label_settings = SubResource("LabelSettings_3wgbx")
 vertical_alignment = 2

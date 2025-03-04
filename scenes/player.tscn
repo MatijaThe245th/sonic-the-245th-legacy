@@ -1,6 +1,6 @@
 [gd_scene load_steps=95 format=3 uid="uid://d1861mffx23x3"]
 
-[ext_resource type="Script" path="res://scripts/player.gd" id="1_qooqc"]
+[ext_resource type="Script" uid="uid://c1aewryxx62g7" path="res://scripts/player.gd" id="1_qooqc"]
 [ext_resource type="Texture2D" uid="uid://cxc775sdhbrkv" path="res://sprites/Sonic/Sonic_Idle.png" id="2_bdc6g"]
 [ext_resource type="Texture2D" uid="uid://bm531b1t3hbov" path="res://sprites/Sonic/Sonic_Fall_ExtraFrame.png" id="3_dtib8"]
 [ext_resource type="Texture2D" uid="uid://dyqmt6lo4p8t3" path="res://sprites/Sonic/Sonic_Fall.png" id="3_f4tnd"]
@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://cmay528mhce4t" path="res://sprites/Sonic/Sonic_TurnFast.png" id="7_0djk6"]
 [ext_resource type="Texture2D" uid="uid://brkwu04cla20o" path="res://sprites/Sonic/Sonic_Walk2.png" id="7_m7f2e"]
 [ext_resource type="Texture2D" uid="uid://xgeyni06k8a6" path="res://sprites/Sonic/Sonic_TurnSlow.png" id="7_s4jmk"]
-[ext_resource type="Script" path="res://scripts/player_sprite.gd" id="8_cyyry"]
+[ext_resource type="Script" uid="uid://pdx4e6kcf661" path="res://scripts/player_sprite.gd" id="8_cyyry"]
 [ext_resource type="Texture2D" uid="uid://dwsw4e68i531t" path="res://sprites/Sonic/Sonic_TurnFast_ExtraFrame.png" id="8_hglk2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qvehr"]
